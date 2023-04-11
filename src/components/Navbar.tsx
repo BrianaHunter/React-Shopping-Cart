@@ -7,16 +7,16 @@ export default function NavBar() {
   const { openCart, cartQuantity } = useShoppingCart();
 
   return (
-    <NavbarBs sticky="top" className="navbar mb-3">
+    <NavbarBs sticky="top" className="mb-3">
       <Container>
         <Nav className="me-auto">
-          <Nav.Link to="/" as={NavLink}>
+          <Nav.Link className="navlink" to="/" as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to="/store" as={NavLink}>
+          <Nav.Link className="navlink" to="/store" as={NavLink}>
             Store
           </Nav.Link>
-          <Nav.Link to="/about" as={NavLink}>
+          <Nav.Link className="navlink" to="/about" as={NavLink}>
             About
           </Nav.Link>
         </Nav>

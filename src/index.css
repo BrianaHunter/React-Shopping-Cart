@@ -5,10 +5,17 @@
   --light: #ee5628;
 }
 
-.navbar {
-  background-color: var(--light);
+.navlink {
+  color: var(--light);
+  font-size: 20px;
+  font-weight: 200;
 }
 
-/* .homepage {
-  background-color: var(--light);
-} */
+.navlink: {
+  color: var(--light);
+}
+
+.navlink:active {
+  color: var(--light);
+}
+

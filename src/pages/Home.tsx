@@ -1,11 +1,10 @@
 import React from "react";
-import { Container, Placeholder } from "react-bootstrap";
+import { Card, Container, Placeholder, Row } from "react-bootstrap";
 
 export default function HomePg() {
   return (
-    <Container >
-      <div></div>
-      <div className="d-flex aligns-itemms-center justify-content-center">
+    <Container>
+      <div className="d-flex aligns-items-center justify-content-center">
         <svg
           width="400"
           height="400"
@@ -24,6 +23,25 @@ export default function HomePg() {
           <path d="m203.12,71.39h12.88l-10.25-16.53c2.65-1.09,5.49-3.04,6.49-6.47.38-1.29.6-2.81.6-4.6,0-1.46-.34-3.01-.83-4.05-3.14-6.57-10.29-7.35-12.44-7.41h-17.75v39.06h11.61v-14.71h.99l8.69,14.71h0Zm-2.22-27.45c.24,3.62-3.23,3.8-3.23,3.8h-4.23v-5.91h4.26c.71.06,2.8.14,3.2,2.11Z" />
         </svg>
       </div>
+
+      <Row md={2} xs={1} lg={4} className="g-3">
+        {/* <img
+            src="public/home-imgs/img-1.JPG"
+            style={{ width: "875px", height: "1575px" }}
+          />
+          <img
+            src="public/home-imgs/img-2.JPG"
+            style={{ width: "775px", height: "1375px" }}
+          />
+          <img
+            src="public/home-imgs/img-3.JPG"
+            style={{ width: "875px", height: "1575px" }}
+          />
+          <img
+            src="public/home-imgs/img-4.JPG"
+            style={{ width: "875px", height: "1575px" }}
+          /> */}
+      </Row>
     </Container>
   );
 }
