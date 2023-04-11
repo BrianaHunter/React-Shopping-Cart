@@ -24,6 +24,8 @@ export default function HomePg() {
         </svg>
       </div>
 
+      {/* create icons for the home page. orange circles with white outline icons OR orange icons  */}
+
       <Row md={2} xs={1} lg={4} className="g-3">
         {/* <img
             src="public/home-imgs/img-1.JPG"
