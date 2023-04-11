@@ -1,0 +1,14 @@
+:root {
+  --primary: #ee5628;
+  --secondary: #8c38ff;
+  --dark: #131a26;
+  --light: #ee5628;
+}
+
+.navbar {
+  background-color: var(--light);
+}
+
+/* .homepage {
+  background-color: var(--light);
+} */
